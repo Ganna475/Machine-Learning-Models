@@ -1,22 +1,81 @@
-ML models of CognoRise Internship
+This repository contains three machine learning projects demonstrating practical applications of supervised learning in healthcare and real estate.
+Each notebook covers the complete workflow from data preprocessing and exploratory analysis to model training, evaluation, and visualization.
 
 
 
-This repository showcases a collection of machine learning projects that apply data-driven techniques to solve real-world problems across healthcare and economics.
-Each project demonstrates the full workflow — from data preprocessing and visualization to model building, evaluation, and interpretation.
-
- Overview
+ Projects Included:
 
 
+ 
+1. Breast Cancer Classification
 
-The goal of this repository is to present how various supervised learning algorithms can be used to make accurate predictions and uncover insights from data.
-By experimenting with different datasets and methods, this collection highlights the strengths and limitations of commonly used ML models.
+Objective: Predict whether a tumor is malignant or benign.
 
-Projects Included
+Techniques: Random Forest Classifier (can be extended to Logistic Regression or SVM).
+
+Highlights:
+
+Data cleaned and preprocessed with appropriate encoding.
+
+Features scaled for better model performance.
+
+Includes confusion matrix, classification report, and feature importance visualization.
+
+Performance: Accuracy ~96%, with high precision and recall.
 
 
 
-Project	Description	Techniques Used
-Breast Cancer Classification	Predicts whether a tumor is malignant or benign using diagnostic medical data.	Logistic Regression, Random Forest, Support Vector Machine
-Diabetes Prediction	Predicts the likelihood of diabetes based on patient attributes.	Decision Tree, K-Nearest Neighbors, Logistic Regression
-House Price Prediction	Estimates housing prices using regression-based models.	Linear Regression, Ridge, Lasso, Feature Engineering
+
+2. Diabetes Prediction
+
+Objective: Predict the likelihood of diabetes based on patient health indicators.
+
+Techniques: Random Forest Classifier with SMOTE for handling class imbalance.
+
+Highlights:
+
+Categorical features encoded, numerical features scaled.
+
+Model threshold adjusted for better recall on diabetic patients.
+
+ROC curve visualization included.
+
+Performance: Accuracy ~93%, with strong recall for positive cases.
+
+
+
+
+
+
+3. House Price Prediction
+
+Objective: Predict house prices based on multiple features.
+
+Techniques: Ridge Regression with polynomial features and hyperparameter tuning via GridSearchCV.
+
+Highlights:
+
+Log-transformed target variable to reduce skewness.
+
+One-hot encoding for categorical variables.
+
+Pipeline ensures reproducibility of preprocessing and modeling steps.
+
+Performance: R² ~0.07 — serves as a baseline model; performance can be improved using ensemble models like Random Forest or XGBoost.
+
+
+
+
+
+
+Features
+
+
+
+Fully documented Jupyter Notebooks.
+
+Exploratory data analysis (EDA) included.
+
+Step-by-step demonstration of data preprocessing → model training → evaluation → visualization.
+
+Comparison of multiple models (where applicable) to illustrate performance differences.

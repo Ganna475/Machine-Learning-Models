@@ -9,11 +9,11 @@ Each notebook covers the complete workflow from data preprocessing and explorato
  
 1. Breast Cancer Classification
 
-Objective: Predict whether a tumor is malignant or benign.
+- Objective: Predict whether a tumor is malignant or benign.
 
-Techniques: Random Forest Classifier (can be extended to Logistic Regression or SVM).
+- Techniques: Random Forest Classifier (can be extended to Logistic Regression or SVM).
 
-Highlights:
+- Highlights:
 
 Data cleaned and preprocessed with appropriate encoding.
 
@@ -28,11 +28,11 @@ Performance: Accuracy ~96%, with high precision and recall.
 
 2. Diabetes Prediction
 
-Objective: Predict the likelihood of diabetes based on patient health indicators.
+- Objective: Predict the likelihood of diabetes based on patient health indicators.
 
-Techniques: Random Forest Classifier with SMOTE for handling class imbalance.
+- Techniques: Random Forest Classifier with SMOTE for handling class imbalance.
 
-Highlights:
+- Highlights:
 
 Categorical features encoded, numerical features scaled.
 
@@ -49,11 +49,11 @@ Performance: Accuracy ~93%, with strong recall for positive cases.
 
 3. House Price Prediction
 
-Objective: Predict house prices based on multiple features.
+- Objective: Predict house prices based on multiple features.
 
-Techniques: Ridge Regression with polynomial features and hyperparameter tuning via GridSearchCV.
+- Techniques: Ridge Regression with polynomial features and hyperparameter tuning via GridSearchCV.
 
-Highlights:
+- Highlights:
 
 Log-transformed target variable to reduce skewness.
 
@@ -72,10 +72,14 @@ Features
 
 
 
-Fully documented Jupyter Notebooks.
 
-Exploratory data analysis (EDA) included.
 
-Step-by-step demonstration of data preprocessing → model training → evaluation → visualization.
 
-Comparison of multiple models (where applicable) to illustrate performance differences.
+
+- Fully documented Jupyter Notebooks.
+
+- Exploratory data analysis (EDA) included.
+
+- Step-by-step demonstration of data preprocessing → model training → evaluation → visualization.
+
+- Comparison of multiple models (where applicable) to illustrate performance differences.
